@@ -1,0 +1,40 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Documentacion de APIS para Marketing One",
+        "contact": {
+            "name": "Reinaldo"
+        },
+        "version": "1.0"
+    },
+    "paths": {
+        "/api/users": {
+            "get": {
+                "summary": "Mostrar usuarios",
+                "operationId": "App\\Http\\Controllers\\UserController::show",
+                "responses": {
+                    "200": {
+                        "description": "Mostrar todos los usuarios."
+                    },
+                    "default": {
+                        "description": "Ha ocurrido un error."
+                    }
+                }
+            }
+        },
+        "/api/users/{id}": {
+            "get": {
+                "summary": "Traer usuario",
+                "operationId": "App\\Http\\Controllers\\UserController::getById",
+                "responses": {
+                    "200": {
+                        "description": "Traer usuario."
+                    },
+                    "default": {
+                        "description": "Ha ocurrido un error."
+                    }
+                }
+            }
+        }
+    }
+}

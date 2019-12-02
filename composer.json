@@ -7,10 +7,11 @@
     "require": {
         "php": "^7.2",
         "barryvdh/laravel-cors": "^0.11.4",
+        "darkaonline/swagger-lume": "6.*",
+        "dingo/api": "^2.4.0",
         "dusterio/lumen-passport": "^0.2.15",
         "flipbox/lumen-generator": "^6.0",
-        "laravel/lumen-framework": "^6.0",
-        "dingo/api": "^2.4.0"
+        "laravel/lumen-framework": "^6.0"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.4",
