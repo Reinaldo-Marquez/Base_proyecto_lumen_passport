@@ -23,3 +23,5 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Base_proyecto_lumen_passport
+
+Para ver la documentacion en swagger es necesario correr el servidor apuntando al index en la carpeta public "php -S localhost:8000  public/index.php"
